@@ -44,11 +44,10 @@ I want to additionally thank the following communities and tools that have (ofte
 
 - [Ileriayo/markdown-badges](https://github.com/Ileriayo/markdown-badges/tree/master) - for the awesome badge collection
 - [Simple Badges](https://badges.pages.dev/) - for the incredible list of searchable, copy-paste badges
-- [Project Types](https://project-types.github.io/) - for the great overview of project types
+- [Project Types](https://project-types.github.io/) - for the great overview of how to properly categorize your repo
 
 > [!IMPORTANT]
-> If you want to start using badges in your own projects, check out the [Shields.io documentation](https://shields.io/), which is a great resource for creating custom badges.
-> I highly recommend you donate or support the project by authorizing their GitHub App, which is free and is a great way to show appreciation for their work! Learn more about it [here](https://shields.io/blog/token-pool).
+> If you want to start using badges in your own projects, I highly recommend you donate or support the [shields.io project](https://shields.io/) by authorizing their GitHub App, which is free and is a great way to show appreciation for their work! Learn more about it [here](https://shields.io/blog/token-pool).
 
 ---
 
@@ -85,13 +84,40 @@ Here’s what I’ve mapped out, but this is absolutely up for discussion. Have 
 
 ### Very basic scaffold
 
-- [`README.md`](./README.md) – Project overview and starter info (you’re reading it!)
+- [`README.md`](./README.md) – Project overview and starter info (you're reading it!)
 - [`commitlint.config.js`](./commitlint.config.mjs) – ES6 Commit message linting rules (not yet enforced)
-- [`package.json`](./package.json) – Node.js project manifest
-- [`LICENSE`](./LICENSE) – License file
-- [`index.js`](./index.js) – Entry point
+- [`package.json`](./package.json) – NPM Node.js project manifest
+- [`LICENSE`](./LICENSE) – Apache 2.0 License file
+- [`index.js`](./index.js) – Entry point placeholder
 - [`src/`](./src/) – Empty source code folder
 - [`tests/`](./tests/) – Empty test folder
+- [`wiki/`](./wiki/) – Wiki submodule for comprehensive documentation
+
+---
+
+## 📚 Working with Submodules
+
+This project includes a wiki submodule for comprehensive documentation. Here's how to get it set up:
+
+### First-time setup
+
+```bash copy
+git submodule init
+git submodule update
+```
+
+**Or in one command**
+
+```bash copy
+git submodule update --init --recursive
+```
+
+### To pull the latest wiki updates
+```bash copy
+git submodule update --remote wiki
+```
+
+For more detailed documentation and guides, check out [wiki pages](https://github.com/anchildress1/npm-nodejs-template/wiki) or, once you've loaded the submodule, [/wiki](./wiki/Home.md) in your IDE!
 
 ---
 
@@ -132,7 +158,7 @@ Here’s what I’ve mapped out, but this is absolutely up for discussion. Have 
 
 ### 📖 Documentation
 
-- Planning for either a `/docs` folder, wiki, or full GitHub Pages site - opinions needed!
+- Added wiki submodule for comprehensive documentation (link to full docs coming soon!)
 - Explainers for each tool, folder, and weird decision
 
 ### 🤖 GitHub Copilot
