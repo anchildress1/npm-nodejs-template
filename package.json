@@ -1,7 +1,7 @@
 {
   "name": "npm-nodejs-template",
   "version": "0.0.0",
-  "license": "MIT",
+  "license": "Apache-2.0",
   "description": "A boilerplate starter for any NodeJS project that contains all the default config rules and scaffold for a project.",
   "keywords": [
     "nodejs",
@@ -27,6 +27,8 @@
     "test": "tests"
   },
   "main": "index.js",
+  "node": "24.4.0",
+  "npm": "11.4.2",
   "volta": {
     "node": "24.4.0",
     "npm": "11.4.2"
