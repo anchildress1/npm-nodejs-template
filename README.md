@@ -45,6 +45,7 @@ I want to additionally thank the following communities and tools that have (ofte
 - [Ileriayo/markdown-badges](https://github.com/Ileriayo/markdown-badges/tree/master) - for the awesome badge collection
 - [Simple Badges](https://badges.pages.dev/) - for the incredible list of searchable, copy-paste badges
 - [Project Types](https://project-types.github.io/) - for the great overview of how to properly categorize your repo
+- [GitHub Wiki - Design and Implementation](https://github.com/practicalseries/GitHub-Wiki-Design-and-Implementation/wiki) - for the expert-level digging to figure this thing out before me (seriously, I owe you one!)
 
 > [!IMPORTANT]
 > If you want to start using badges in your own projects, I highly recommend you donate or support the [shields.io project](https://shields.io/) by authorizing their GitHub App, which is free and is a great way to show appreciation for their work! Learn more about it [here](https://shields.io/blog/token-pool).
