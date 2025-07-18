@@ -1,4 +1,4 @@
-# anchildress1/npm-nodejs-template 🦄
+# 🚀 NodeCraft: The Ultimate NPM/Node.js Starter Kit
 
 Shaping the Ultimate Starter Kit Together
 
