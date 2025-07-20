@@ -3,6 +3,15 @@
 Shaping the Ultimate Starter Kit Together
 
 > [!IMPORTANT]
+> 🦄 Hack Time Update: Contest Mode Activated!
+>
+> I’m off chasing glory in a coding contest through the end of September, 2025, so this repo’s usual hustle is on a quick coffee break. I’ll ninja-drop updates whenever I can between rounds, but please hang tight while I duke it out on the leaderboard.
+>
+> Thanks for your patience - and may your builds always pass! 🏅✨
+
+---
+
+> [!WARN]
 > This is a work in progress and may take a few weeks before I have anything truly useful, but feel free to use anything available as a starting point.
 >
 > 📝 I'm open to suggestions. Dive into the [Dev.to post](https://dev.to/anchildress11/calling-all-nodejs-wizards-what-would-you-add-to-the-ultimate-boilerplate-38aj) for more context!
@@ -114,6 +123,7 @@ git submodule update --init --recursive
 ```
 
 ### To pull the latest wiki updates
+
 ```bash copy
 git submodule update --remote wiki
 ```
@@ -167,7 +177,7 @@ For more detailed documentation and guides, check out [wiki pages](https://githu
 - Starter tips for using Copilot well (not just “type // todo and hope for magic”)
 - Would love to crowdsource actual examples and best practices
 
-> If you don't know me, check out my recent blog posts on [Dev.to](https://dev.to/anchildress1) - then that last one will make perfect sense :innocent:
+> If you don't know me, check out my recent blog posts on [Dev.to](https://dev.to/anchildress1) - then that last one will make perfect sense \:innocent:
 
 ---
 
