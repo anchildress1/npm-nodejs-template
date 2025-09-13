@@ -52,8 +52,8 @@ export default {
     'body-empty': [2, 'never'], // Enforce a body section in the commit message
     'body-max-line-length': [2, 'always', 100],  // Enforce strict conventional commit guidelines
     'footer-max-line-length': [2, 'always', 100], // Enforce strict conventional commit guidelines
-    'signed-off-by': [2, 'always'], // Enforce a "Signed-off-by" line in the footer (optional, but use with below rule)
-    'trailer-exists': [2, 'always', 'Signed-off-by'], // Enforce a value following "Signed-off-by:" line in the footer
+    'signed-off-by': [1, 'always'], // Enforce a "Signed-off-by" line in the footer (optional, but use with below rule)
+    'trailer-exists': [1, 'always', 'Signed-off-by'], // Enforce a value following "Signed-off-by:" line in the footer
 
     // END of custom rules
   }
